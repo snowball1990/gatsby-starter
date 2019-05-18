@@ -1,0 +1,18 @@
+{
+  "name": "gatsby-starter",
+  "version": "0.0.1",
+  "description": "gatsby starter",
+  "main": "index.js",
+  "repository": "https://github.com/snowball1990/gatsby-starter.git",
+  "author": "snowball1990 <snowballer0705@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gatsby develop",
+    "build": "gatsby build"
+  },
+  "dependencies": {
+    "gatsby": "^2.5.5",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
