@@ -1,0 +1,12 @@
+.primary-button{
+  color: purple;
+  background-color: antiquewhite;
+  width: 200px;
+  height: 100px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.text{
+  color: green;
+}
