@@ -1,0 +1,10 @@
+{
+  "homePage":{
+    "heading": "Gatsby ランチャー",
+    "greetings": "やあみなさん",
+    "welcome":"新しい Gatsby サイトへようこそ",
+    "des":"素晴らしいものを作りましょう",
+    "redirect":"二ページにジャンプ",
+    "copyRight": "使用する Gatsby ビルド"
+  }
+}

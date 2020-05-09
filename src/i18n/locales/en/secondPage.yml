@@ -1,0 +1,5 @@
+---
+  secondPage:
+    greetings: Hi from the second page,
+    welcome: Welcome to page 2,
+    redirect: Go back to the homepage

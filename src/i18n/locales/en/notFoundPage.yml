@@ -1,0 +1,4 @@
+---
+  notFoundPage:
+    heading: NOT FOUND
+    des: You just hit a route that doesn't exist... the sadness.

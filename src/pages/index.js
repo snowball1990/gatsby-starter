@@ -1,83 +1,31 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
-import { css } from "@emotion/core"
-import { rhythm } from "../utils/typography"
-import Layout from "../components/layout"
 
-export default ({ data }) => {
-  console.log(data)
+import { Link } from "@/i18n"
+
+import Layout from "../components/layout"
+import Image from "../components/image"
+import SEO from "../components/seo"
+
+import useTranslation from "@/hooks/useTranslation"
+
+const IndexPage = () => {
+  const t = useTranslation()
   return (
     <Layout>
-      <div>
-        <h1
-          css={css`
-            display: inline-block;
-            border-bottom: 1px solid;
-          `}
-        >
-          Amazing Pandas Eating Things
-        </h1>
-        <h4
-        css={css`
-          margin: ${rhythm(1 / 2)} 0;
-        `}
-        >{data.allMarkdownRemark.totalCount} Posts</h4>
-        {data.allMarkdownRemark.edges.map(({ node }) => (
-          <div 
-            css={css`
-              margin: ${rhythm(3 / 4)} 0;
-            `}
-            key={node.id} >
-            <Link
-              to={node.fields.slug}
-              css={css`
-                text-decoration: none;
-                color: inherit;
-              `}
-            >
-              <h3
-                css={css`
-                  margin-bottom: ${rhythm(1 / 4)};
-                `}
-              >
-                {node.frontmatter.title}{" "}
-                <span
-                  css={css`
-                    color: #bbb;
-                  `}
-                >
-                  — {node.frontmatter.date}
-                </span>
-              </h3>
-              <p>{node.excerpt}</p>
-            </Link>
-          </div>
-        ))}
+      <SEO 
+        title={`home: ${t('seo.title')}`} 
+        description={`home: ${t('seo.description')}`}
+        keywords={[`gatsby`, `react`,`javascript`]}
+      />
+      <h1>{t('homePage.greetings')}</h1>
+      <p>{t('homePage.welcome')}</p>
+      <p>{t('homePage.des')}</p>
+      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+        <Image />
       </div>
+      <Link to="/page-2/">{t('homePage.redirect')}</Link>
     </Layout>
   )
 }
 
-export const query = graphql`
-  query {
-    allMarkdownRemark(sort: {
-        fields: [frontmatter___date]
-        order: DESC
-    }) {
-      totalCount
-      edges {
-        node {
-          id
-          frontmatter {
-            title
-            date(formatString: "DD MMMM, YYYY")
-          }
-          fields {
-            slug
-          }
-          excerpt
-        }
-      }
-    }
-  }
-`
+export default IndexPage

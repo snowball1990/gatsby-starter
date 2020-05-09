@@ -1,0 +1,10 @@
+{
+  "homePage":{
+    "heading": "Gatsby 起始專案",
+    "greetings": "嗨，大家好",
+    "welcome":"歡迎來到你新的Gatsby網站",
+    "des":"開始建置很棒的內容吧。",
+    "redirect":"進入第二頁",
+    "copyRight": "使用 Gatsby 建置"
+  }
+}

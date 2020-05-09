@@ -1,0 +1,10 @@
+{
+  "homePage":{
+    "heading": "Gatsby 默认启动器",
+    "greetings": "嗨，大家好",
+    "welcome":"欢迎来到你的 Gatsby 新网站。",
+    "des":"让我们来做点有意思的事情吧。",
+    "redirect":"跳转至页面二",
+    "copyRight": "使用 Gatsby 构建"
+  }
+}

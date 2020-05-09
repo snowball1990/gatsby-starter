@@ -1,0 +1,10 @@
+{
+  "homePage":{
+    "heading": "Gatsby 기본 기동기",
+    "greetings": "들여러분 안녕하세요",
+    "welcome":"Gatsby 사이트에 오신 것을 환영합니다",
+    "des":"이제 새로운 것을 만들어 보세요.",
+    "redirect":"두 번째 페이지로 이동",
+    "copyRight": "빌드 Gatsby 사용"
+  }
+}

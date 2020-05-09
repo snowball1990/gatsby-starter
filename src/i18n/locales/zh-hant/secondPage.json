@@ -1,0 +1,7 @@
+{
+  "secondPage":{
+    "greetings": "你好,這是第二頁",
+    "welcome": "歡迎來到第二頁",
+    "redirect":"返回首頁"
+  }
+}

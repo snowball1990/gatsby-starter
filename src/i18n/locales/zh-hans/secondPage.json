@@ -1,0 +1,7 @@
+{
+  "secondPage":{
+    "greetings": "你好，第二个页面",
+    "welcome": "欢迎到第二个页面",
+    "redirect":"返回首页"
+  }
+}

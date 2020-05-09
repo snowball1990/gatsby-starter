@@ -1,0 +1,8 @@
+---
+  homePage:
+    heading: Gatsby Default Starter
+    greetings: Hi people
+    welcome: Welcome to your new Gatsby site.
+    des: Now go build something great.
+    redirect: Go to page 2
+    copyRight: Built with Gatsby

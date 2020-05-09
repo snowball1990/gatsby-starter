@@ -1,0 +1,7 @@
+{
+  "secondPage":{
+    "greetings": "안녕하세요, 두 번째 페이지",
+    "welcome": "두 번째 페이지에 오신 것을 환영합니다",
+    "redirect":"홈페이지로 가기"
+  }
+}
